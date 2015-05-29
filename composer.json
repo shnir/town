@@ -8,5 +8,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+	"autoload": {
+        "classmap": [
+			"apartment.php", 
+			"house.php", 
+			"oop4-1.php", 
+			"oop4-2-1.php", 
+			"oop4-2-2.php", 
+			"oop4-3.php", 
+			"street.php", 
+			"town.php"]
+    }
 }
