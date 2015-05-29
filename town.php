@@ -1,6 +1,5 @@
 <?php
 
-include_once 'street.php';
 
 class town {
     public $town_name;

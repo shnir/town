@@ -1,6 +1,5 @@
 <?php
 
-include_once 'house.php';
 
 class street {
     public $street_name;

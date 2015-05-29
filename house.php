@@ -1,5 +1,4 @@
 <?php
-include_once 'apartment.php';
 
 class house{
     public $number_of_house;
