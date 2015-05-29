@@ -64,6 +64,7 @@ private $norm = array(
         if ($this->electricity) return round($this->electricity*$this->price['electricity'], 2);
         else return round(($this->number_of_residents*$this->norm['electricity']+130)*$this->price['electricity'], 2);
     }
+
     public function count_heating(){
         return round($this->area*$this->price['heating'], 2);
     }
