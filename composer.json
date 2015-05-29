@@ -1,0 +1,12 @@
+{
+    "name": "shnir/town",
+    "description": "town",
+    "authors": [
+        {
+            "name": "Andrey Kushnarev",
+            "email": "shnir.g@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
