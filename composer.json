@@ -7,7 +7,7 @@
             "email": "shnir.g@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
 	"autoload": {
         "classmap": [
 			"apartment.php", 
