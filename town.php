@@ -19,6 +19,7 @@ class town {
         $this->streets[$street_name] = new street($street_name, $length, $coord_start, $coord_end);
         echo "В городе $this->town_name размещена улица $street_name.<br>";
         return $this->streets[$street_name];
+        
     }
 
     //добавление готовой улицы
