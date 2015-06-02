@@ -20,6 +20,7 @@ class house{
     public function addApartment($number_apartment, $number_of_rooms, $area, $floor, $number_of_residents, $number_of_balcons, $cold_water=0, $hot_water=0, $electricity=0, $gas=0){
         $this->apartments[$number_apartment] = new apartment($number_apartment, $number_of_rooms, $area, $floor, $number_of_residents, $number_of_balcons, $cold_water, $hot_water, $electricity, $gas);
         echo "В дом №$this->number_of_house добавлена квартира №$number_apartment.<br>";
+        return $this->apartments[$number_apartment];
     }
 
     //Расчет суммы коммунальных платежей по дому
